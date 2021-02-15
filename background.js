@@ -4,7 +4,7 @@ const IMG_NUMBER = 5;
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `/images/vincentVanGogh${imgNumber + 1}.jpg`;
+    image.src = `https://yellowgreener.github.io/images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
 }
